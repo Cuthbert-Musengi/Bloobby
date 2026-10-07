@@ -8,7 +8,7 @@ const Reservations: React.FC = () => {
         <section className="text-center mb-16">
             <p className="text-sm text-accent font-semibold mb-2">BOOK YOUR EXPERIENCE</p>
             <h1 className="text-6xl font-bold font-header">RESERVATIONS</h1>
-            <p className="mt-4">Secure your table at Bloo Lounge — where every night is an occasion</p>
+            <p className="mt-4">Secure your table at Bloo Lounge - where every night is an occasion</p>
         </section>
 
         <section className="grid md:grid-cols-2 gap-16">

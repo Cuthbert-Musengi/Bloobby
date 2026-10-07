@@ -28,7 +28,7 @@ const Menu: React.FC = () => {
                             <h3 className="text-xl font-semibold">Blue Mist <span className="text-xs bg-cyan-500 text-black px-2 py-1 rounded">Signature</span></h3>
                             <p className="text-xl font-semibold text-accent">$35</p>
                         </div>
-                        <p className="text-gray-400">Blueberry, mint, and a hint of ice — our signature blend</p>
+                        <p className="text-gray-400">Blueberry, mint, and a hint of ice - our signature blend</p>
                     </div>
                     <div>
                         <div className="flex justify-between">
@@ -49,7 +49,7 @@ const Menu: React.FC = () => {
                             <h3 className="text-xl font-semibold">Royal Grape</h3>
                             <p className="text-xl font-semibold text-accent">$35</p>
                         </div>
-                        <p className="text-gray-400">Double apple and Concord grape — a classic elevated</p>
+                        <p className="text-gray-400">Double apple and Concord grape - a classic elevated</p>
                     </div>
                 </div>
             </div>

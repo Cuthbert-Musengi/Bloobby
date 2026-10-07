@@ -8,7 +8,7 @@ const Careers: React.FC = () => {
         <section className="text-center mb-16">
             <p className="text-sm text-accent font-semibold mb-2">JOIN THE TEAM</p>
             <h1 className="text-6xl font-bold font-header">CAREERS</h1>
-            <p className="mt-4">Be part of something electric — we're always looking for passionate people to elevate the Bloo Lounge experience</p>
+            <p className="mt-4">Be part of something electric - we're always looking for passionate people to elevate the Bloo Lounge experience</p>
         </section>
 
         <section className="mb-16">

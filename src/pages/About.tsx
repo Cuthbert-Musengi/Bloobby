@@ -17,7 +17,7 @@ const About: React.FC = () => {
             </div>
             <div>
                 <h2 className="text-4xl font-bold mb-4 font-header">THE PHILOSOPHY</h2>
-                <p className="mb-4">At our core is a commitment to excellence. Every detail, from our curated selection of premium shisha to the last drop in our handcrafted cocktails, is chosen with intention. We believe a night out should be an escape—an immersive experience that captivates the senses and creates lasting memories.</p>
+                <p className="mb-4">At our core is a commitment to excellence. Every detail, from our curated selection of premium shisha to the last drop in our handcrafted cocktails, is chosen with intention. We believe a night out should be an escape-an immersive experience that captivates the senses and creates lasting memories.</p>
                 <p>Our space is designed to be both intimate and vibrant, a place where conversations flow as freely as the drinks. It's more than just a lounge; it's a destination.</p>
             </div>
         </section>
