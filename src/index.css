@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --accent: 189 100% 50%;
+  --font-header: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+.neon-text-glow {
+  text-shadow:
+    0 0 5px hsl(var(--accent) / 0.5),
+    0 0 15px hsl(var(--accent));
+}
+
+.bg-marble-dark {
+  background-color: hsl(var(--background));
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 0
+  );
+  background-size: 24px 24px;
+}
