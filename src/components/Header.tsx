@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
@@ -8,11 +9,11 @@ const Header: React.FC = () => {
           <img src="/images/logo.jpg" alt="BLOO LOUNGE Logo" className="h-12 mr-4" />
         </div>
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="/" className="nav-link font-semibold text-cyan-400">HOME</a>
-          <a href="/about" className="nav-link font-semibold">ABOUT</a>
-          <a href="/menu" className="nav-link font-semibold">MENU</a>
-          <a href="/careers" className="nav-link font-semibold">CAREERS</a>
-          <a href="/reservations" className="bg-transparent neon-border text-white font-semibold py-2 px-6">RESERVATIONS</a>
+          <Link to="/" className="nav-link font-semibold text-cyan-400">HOME</Link>
+          <Link to="/about" className="nav-link font-semibold">ABOUT</Link>
+          <Link to="/menu" className="nav-link font-semibold">MENU</Link>
+          <Link to="/careers" className="nav-link font-semibold">CAREERS</Link>
+          <Link to="/reservations" className="bg-transparent neon-border text-white font-semibold py-2 px-6">RESERVATIONS</Link>
         </nav>
         <div className="md:hidden">
           <button className="text-white focus:outline-none">
