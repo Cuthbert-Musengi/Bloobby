@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Careers from './pages/Careers';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Analytics />
     </Router>
   );
 };
